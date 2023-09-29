@@ -15,7 +15,7 @@ body {
 .red {
     color: rgb(241, 83, 14);
     font-size: 28px;
-    margin-left: 54px;
+
 }
 
 .box1:hover {
@@ -89,7 +89,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 0px;
-    margin-top: 85px;
+    margin-top: 25px;
  
 
 }
@@ -103,7 +103,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 0px;
-    margin-top: 85px;
+    margin-top: 25px;
 
 }
 
@@ -117,7 +117,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 85px;
+    margin-top: 25px;
 }
 
 .box4 {
@@ -292,7 +292,6 @@ body {
 .navigation {
     background-color: rgb(159, 69, 51);
     overflow: auto;
-    margin-top: 0;
 }
 
 
@@ -300,16 +299,14 @@ body {
     list-style: none;
     color: rgb(89, 56, 50);
     font-size: 28px;
-    margin-left: 242px;
+    margin-left: 0px;
+    padding-right: 150px;
     display: inline;
     padding-bottom: 14px;
-    
-
 }
 .container{ display: flex;}
 .container1{display:flex;
     }
-    
  .mid li{
     list-style: none;
     margin-left: 0px;
@@ -317,4 +314,5 @@ body {
     padding-bottom: 14px;
     font-size: 48px;
     display: inline;
-    color:  rgb(245, 104, 23);}
+    color:  rgb(245, 104, 23);
+}
