@@ -1,0 +1,320 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.red {
+    color: rgb(241, 83, 14);
+    font-size: 28px;
+    margin-left: 54px;
+}
+
+.box1:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+}
+
+.box2:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+}
+
+.box3:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+}
+
+.box4:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+   
+}
+
+.box5:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+}
+
+.box6:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+}
+
+.box7:hover {
+    background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+
+}
+
+.twitter img:hover{  transform: translateY(-5px);
+    transition-duration: 0.5s;}
+.instagram img:hover{ transform: translateY(-5px);
+    transition-duration: 0.5s;}
+    .linkedin img:hover{transform: translateY(-5px);
+        transition-duration: 0.5s;}
+        .github img:hover{transform: translateY(-5px);
+            transition-duration: 0.5s;}
+.logo1 img:hover{transform: translateY(-5px);
+    transition-duration: 0.5s;}
+
+
+
+
+
+.sub_but:hover {
+    background-color: rgb(199, 60, 0);
+    color: black;
+}
+
+.back:hover {
+    color: rgb(244, 112, 85);
+}
+
+.mid ul li:hover {
+    color: rgb(113, 84, 79);
+    text-decoration: underline  rgb(245, 104, 23);
+    transition: 0.4s linear;
+    width:100%   
+}
+
+.box1 {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 18px;
+    padding-bottom: 74px;
+    padding-top: 35px;
+    padding-right: 18px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 85px;
+ 
+
+}
+
+.box2 { box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 28px;
+    padding-bottom: 74px;
+    padding-top: 35px;
+    padding-right: 18px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 85px;
+
+}
+
+.box3 {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 18px;
+    padding-bottom: 74px;
+    padding-top: 35px;
+    padding-right: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 85px;
+}
+
+.box4 {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 0px;
+    padding-right: 38px;
+    padding-bottom: 44px;
+    padding-top: 34px;
+    margin-left: 50px;
+    margin-right: 44px;
+    display: flex;
+   
+}
+
+
+
+.box5 {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 18px;
+    padding-right: 38px;
+    padding-top: 35px;
+    padding-bottom: 74px;
+    margin-right: 44px;
+    margin-left: 50px;
+    margin-top: 0px;
+   
+}
+
+.box6 {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 13px;
+    padding-left: 18px;
+    padding-right: 38px;
+    padding-top: 35px;
+    padding-bottom: 74px;
+    margin-right: 44px;
+    margin-left: 50px;
+    margin-top: 0px;
+ 
+}
+
+.box7 {background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-bottom: 74px;
+    margin-left: 50px;
+    margin-right: 1020px;
+  border-radius: 13px ;
+  padding-left:18px ;
+}
+
+.discription1 {
+    background-color: white;
+    border-radius: 18px;
+    text-align: center;
+    padding-left: 13px;
+    padding-right: 28px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-left: 50px;
+    margin-right: 650px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#name {
+    border-radius: 13px;
+    padding:20px;
+    background-color: rgb(238, 234, 234);
+    margin:10px 30px;
+    width: 89%;
+    border: none;
+    display: flex;
+    font-size: 24px;}
+#email {
+    border-radius: 13px;
+    padding:20px;
+    background-color: rgb(238, 234, 234);
+    margin:10px 30px;
+    width: 89%;
+    border: none;
+    display: flex;
+    font-size: 24px;}
+
+#number {
+    border-radius: 13px;
+    padding:20px;
+    background-color: rgb(238, 234, 234);
+    margin:10px 30px;
+    width: 89%;
+    border: none;
+    display: flex;
+    font-size: 24px;
+}
+
+#text { padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 30px;
+    padding: 20px;
+    background-color:rgb(238, 234, 234) ;
+    font-size: 24px;
+    width: 89%;
+}
+
+.sub_but {
+    background-color: rgb(241, 83, 14);
+    padding-top: 9px;
+    padding-right: 54px;
+    padding-left: 54px;
+    padding-bottom: 9px;
+    border-radius: 28px;
+    color: white;
+    font-size: 24px;
+    border-style: none;
+
+}
+
+.foot {
+    background-color: rgb(85, 16, 0);
+    text-align: center;
+    color: white;
+}
+
+.back {
+    background-color: rgb(159, 69, 51);
+    display: block;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.rightabout {
+    display: inline-block;
+    margin-left: 950px;
+}
+
+.white {
+    color: white;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.twitter {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.linkedin {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.github {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.instagram {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+
+.navigation {
+    background-color: rgb(159, 69, 51);
+    overflow: auto;
+    
+}
+
+
+.mid ul li {
+    list-style: none;
+    color: rgb(89, 56, 50);
+    font-size: 28px;
+    
+
+margin-left: 242px;
+   display: inline;
+   
+    padding-bottom: 14px;
+    
+
+}
+.container{ display: flex;}
+.container1{display:flex;
+    }
+    
+ .mid li{list-style: none;
+margin-left: 0px;
+  display: inline;
+    padding-bottom: 14px;
+
+font-size: 48px;
+    display: inline;
+    color:  rgb(245, 104, 23);}
