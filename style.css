@@ -3,16 +3,19 @@
 }
 
 body {
+    
+    margin: 0; 
+    padding: 0; 
     background-image: url("background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 .red {
     color: rgb(241, 83, 14);
     font-size: 28px;
-    margin-left: 54px;
+
 }
 
 .box1:hover {
@@ -86,7 +89,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 0px;
-    margin-top: 85px;
+    margin-top: 25px;
  
 
 }
@@ -100,7 +103,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 0px;
-    margin-top: 85px;
+    margin-top: 25px;
 
 }
 
@@ -114,7 +117,7 @@ body {
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 85px;
+    margin-top: 25px;
 }
 
 .box4 {
@@ -289,7 +292,6 @@ body {
 .navigation {
     background-color: rgb(159, 69, 51);
     overflow: auto;
-    
 }
 
 
@@ -297,24 +299,20 @@ body {
     list-style: none;
     color: rgb(89, 56, 50);
     font-size: 28px;
-    
-
-margin-left: 242px;
-   display: inline;
-   
+    margin-left: 0px;
+    padding-right: 150px;
+    display: inline;
     padding-bottom: 14px;
-    
-
 }
 .container{ display: flex;}
 .container1{display:flex;
     }
-    
- .mid li{list-style: none;
-margin-left: 0px;
-  display: inline;
-    padding-bottom: 14px;
-
-font-size: 48px;
+ .mid li{
+    list-style: none;
+    margin-left: 0px;
     display: inline;
-    color:  rgb(245, 104, 23);}
+    padding-bottom: 14px;
+    font-size: 48px;
+    display: inline;
+    color:  rgb(245, 104, 23);
+}
