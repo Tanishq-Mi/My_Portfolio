@@ -6,38 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="afterc.css"> 
 
     <title> Tanishq's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    
+
 <link rel="icon" type="image/x-icon" href="myself.png">
 </head>
 
 <body>
     <header>
         <nav class="navigation">
-            <div class="mid">
-                
-                <ul>
-                    <li class="Portfolio">Portfolio</li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                  <li>Contact</li>
+            
+            <ul>
+                <div class="mid">
+                    <li id="portg">Portfolio</li>
+                </div>
+                <div class="left">
+                    <a class=Home href="#red1">   <li>Home</li></a>
+                    <a class=About href="#ramam">   <li>About</li></a>
+                    <a class=Skills href="#skill">   <li>Skills</li></a>
+                    <a class=Contact href="#social">   <li>Contact</li></a>
+                    
+                    </div>
                 </ul>
-            </div>
         </nav>
     </header>
 
     <div class="rightabout">
-    <h4 class="red">Welcome To My Portfolio</h4>
-        <h2 style="color: rgb(239, 227, 227);">नमस्कार!!</h2>
+    <h4 class="red" id="red1">Welcome To My Portfolio</h4>
+       <div class="hem"> <h2 style="color: rgb(239, 227, 227);">नमस्कार!!</h2>
         <h1 style="color: rgb(239, 227, 227);"> This Is <strong>Tanishq Mishra</strong></h1>
         <h3 style="color: rgb(239, 227, 227);">Little Bit About Me 😉!!</h3>
-        <button type="menu" class="sub_but" >About Me</button>
+        <button type="menu" class="sub_but" >About Me</button></div>
     </div>
     
     <div class="red">
-        <h2>About</h2>
+        <h2 id="ramam">About</h2>
     </div>
     <div class="container1">
         <div class="box1">
@@ -61,10 +68,11 @@
         
         </div>
         <div class="red">
-            <h2 class="skill">My Skills</h2>
+            <h2 id="skill">My Skills</h2>
         </div>
-       <div class="container" ><div class="box4">
-           <h3 >Programming Languages</h3>
+        <div class="container" >
+            <div class="box4">
+            <h3 >Programming Languages</h3>
            <a class="logo1" href="https://www.python.org/"target="blank"><img src="python.png" alt="Python" height="115px" width="115px"></a>
             <a class="logo1" href="https://www.w3schools.com/c/" target="blank"><img src="c.png" alt="C" height="60px" width="55px"></a>
             <a class="logo1" href="https://www.w3schools.com/html/" target="blank"><img src="html.png" alt="Html" height="60px" width="65px"></a>
@@ -92,7 +100,7 @@
         <div class="discription1"><div class="red"  id="desp">
             <h2 id="h2">Wanna Ask Something?</h2>
         </div>
-        <div ><input type="text" id="name" placeholder="Enter Your Name" required>
+        <div  class="rama"><input type="text" id="name" placeholder="Enter Your Name" required>
             <input type="email" id="email" placeholder="Enter Your Email" required>
             <input type="text" id="number" placeholder="Enter Your number" required>
             <textarea id="text" rows="5" placeholder="Want To Ask Something?"></textarea>
@@ -103,7 +111,7 @@
                 <div><a class="back" href="#">Back To Top</a></div>
                 <h4>Made By Tanishq Mishra 😉!!</h4>
                 <h5>Contact Me</h5>
-                <div class="social">
+                <div id="social">
                     <a class="twitter" href="https://twitter.com/Tanishq_mi" target="blank"><img src="twitter.png" alt="Twitter "
                             height="30px" width="30px"> </a>
                     <a class="github" href="https://github.com/Tanishq-Mi" target="blank"><img src="github.png" alt="Github"
