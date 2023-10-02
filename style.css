@@ -1,11 +1,12 @@
 * {
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
-    
-    margin: 0; 
-    padding: 0; 
+
+    margin: 0;
+    padding: 0;
     background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,48 +17,87 @@ body {
     color: rgb(241, 83, 14);
     font-size: 28px;
 
+
+
+
+
 }
 
 .box1:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
+
 }
 
 .box2:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 }
 
 .box3:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 }
 
 .box4:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
-   
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 }
 
 .box5:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 }
 
 .box6:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 }
 
 .box7:hover {
     background-image: linear-gradient(180deg, rgb(240, 194, 194), rgb(245, 104, 23));
+    box-shadow: 8px 8px 8px white, 10px 10px 3px rgb(241, 83, 14);
+    transform: translateX(-8px) translateY(-8px);
+    transition-duration: 0.5s;
 
 }
 
-.twitter img:hover{  transform: translateY(-5px);
-    transition-duration: 0.5s;}
-.instagram img:hover{ transform: translateY(-5px);
-    transition-duration: 0.5s;}
-    .linkedin img:hover{transform: translateY(-5px);
-        transition-duration: 0.5s;}
-        .github img:hover{transform: translateY(-5px);
-            transition-duration: 0.5s;}
-.logo1 img:hover{transform: translateY(-5px);
-    transition-duration: 0.5s;}
+.twitter img:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+.instagram img:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+.linkedin img:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+.github img:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+.logo1 img:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
 
 
 
@@ -72,29 +112,30 @@ body {
     color: rgb(244, 112, 85);
 }
 
-.mid ul li:hover {
+.left a li:hover {
     color: rgb(113, 84, 79);
-    text-decoration: underline  rgb(245, 104, 23);
-    transition: 0.4s linear;
-    width:100%   
+    text-decoration: underline rgb(245, 104, 23);
+    transition: all 0.8s ;
+    width: 100%
 }
 
 .box1 {
-    box-sizing: border-box;
+
     background-color: white;
     border-radius: 13px;
     padding-left: 18px;
-    padding-bottom: 74px;
+    padding-bottom: 94px;
     padding-top: 35px;
     padding-right: 18px;
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 25px;
- 
+
 
 }
 
-.box2 { box-sizing: border-box;
+.box2 {
+    box-sizing: border-box;
     background-color: white;
     border-radius: 13px;
     padding-left: 28px;
@@ -124,14 +165,14 @@ body {
     box-sizing: border-box;
     background-color: white;
     border-radius: 13px;
-    padding-left: 0px;
+    padding-left: 18px;
     padding-right: 38px;
     padding-bottom: 44px;
     padding-top: 34px;
     margin-left: 50px;
     margin-right: 44px;
-    display: flex;
-   
+    display: block;
+
 }
 
 
@@ -147,7 +188,7 @@ body {
     margin-right: 44px;
     margin-left: 50px;
     margin-top: 0px;
-   
+
 }
 
 .box6 {
@@ -161,18 +202,19 @@ body {
     margin-right: 44px;
     margin-left: 50px;
     margin-top: 0px;
- 
+
 }
 
-.box7 {background-color: white;
+.box7 {
+    background-color: white;
     display: flex;
     box-sizing: border-box;
     padding-top: 35px;
     padding-bottom: 74px;
     margin-left: 50px;
     margin-right: 1020px;
-  border-radius: 13px ;
-  padding-left:18px ;
+    border-radius: 13px;
+    padding-left: 18px;
 }
 
 .discription1 {
@@ -191,40 +233,44 @@ body {
 
 #name {
     border-radius: 13px;
-    padding:20px;
+    padding: 20px;
     background-color: rgb(238, 234, 234);
-    margin:10px 30px;
-    width: 89%;
-    border: none;
-    display: flex;
-    font-size: 24px;}
-#email {
-    border-radius: 13px;
-    padding:20px;
-    background-color: rgb(238, 234, 234);
-    margin:10px 30px;
-    width: 89%;
-    border: none;
-    display: flex;
-    font-size: 24px;}
-
-#number {
-    border-radius: 13px;
-    padding:20px;
-    background-color: rgb(238, 234, 234);
-    margin:10px 30px;
+    margin: 10px 30px;
     width: 89%;
     border: none;
     display: flex;
     font-size: 24px;
 }
 
-#text { padding-left: 10px;
+#email {
+    border-radius: 13px;
+    padding: 20px;
+    background-color: rgb(238, 234, 234);
+    margin: 10px 30px;
+    width: 89%;
+    border: none;
+    display: flex;
+    font-size: 24px;
+}
+
+#number {
+    border-radius: 13px;
+    padding: 20px;
+    background-color: rgb(238, 234, 234);
+    margin: 10px 30px;
+    width: 89%;
+    border: none;
+    display: flex;
+    font-size: 24px;
+}
+
+#text {
+    padding-left: 10px;
     border: none;
     border-radius: 15px;
     margin: 10px 30px;
     padding: 20px;
-    background-color:rgb(238, 234, 234) ;
+    background-color: rgb(238, 234, 234);
     font-size: 24px;
     width: 89%;
 }
@@ -292,27 +338,51 @@ body {
 .navigation {
     background-color: rgb(159, 69, 51);
     overflow: auto;
+
 }
 
 
-.mid ul li {
+.left li {
+
+    color: rgb(89, 56, 50);
+    font-size: 28px;
+    margin-left: 9%;
+    padding-right: 0px;
+    display: inline;
+    padding-bottom: 0px;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+}
+
+.mid li {
+    list-style: none;
+    margin-left: 2%;
+    display: inline;
+    padding-bottom: 0px;
+    font-size: 48px;
+    display: inline;
+    color: rgb(245, 104, 23);
+
+}
+
+.left {
     list-style: none;
     color: rgb(89, 56, 50);
     font-size: 28px;
-    margin-left: 0px;
-    padding-right: 150px;
+    margin-left: 11%;
+    padding-right: 0px;
     display: inline;
-    padding-bottom: 14px;
+    padding-bottom: 0px;
 }
-.container{ display: flex;}
-.container1{display:flex;
-    }
- .mid li{
-    list-style: none;
-    margin-left: 0px;
-    display: inline;
-    padding-bottom: 14px;
-    font-size: 48px;
-    display: inline;
-    color:  rgb(245, 104, 23);
+
+.left a {
+    text-decoration: none;
 }
